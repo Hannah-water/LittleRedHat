@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family:"微软雅黑","microsoft yahei";
+	background-color: #F7CAC9;
+	font-size: 16px;
+}
+div {
+	display: block;
+}
+.area {
+	overflow: hidden;
+	width: 800px;
+	margin: 140px auto;
+	background-color: #fff;
+}
+.area-head {
+	font-size: 25px;
+	background-color: #FFA07A;
+}
+.area-head span, .rightHead span {
+	padding: 20px;
+	line-height: 50px;
+}
+.area-left {
+	float: left;
+	width: 180px;
+	margin: 20px;
+	background-color: #f8f8f8;
+}
+.allMenu {
+	padding: 20px 5px;
+}
+
+.allMenu li {
+	line-height: 22px;
+	padding: 10px;
+}
+.area-right {
+	width: 540px;
+	float: right;
+	margin: 20px;
+}
+.rightHead {
+	font-size: 18px;
+	font-weight: bold;
+}
+.rightCon {
+	margin-top: 20px;
+}
+.rightConL {
+	float: left;
+}
+.rightConR {
+	width: 380px;
+	float: right;
+	padding: 10px;
+}
+.rightConR table {
+	padding-top: 100px;
+	clear: both;
+}
+.info_title {
+	line-height: 50px;
+	font-weight: bold;
+}
+.info {
+	width: 70px;
+	line-height: 35px;
+	text-align: right;
+}
+.info_con {
+	font-family:"微软雅黑","microsoft yahei";
+	line-height: 25px;
+}
+ul, li {
+	list-style: none;
+}
+input:focus, select:focus{
+	outline:none;
+	border:#FF7F50 1px solid;
+	box-shadow: 0 0 2px #FF7F50;
+}
+.div_button{
+	margin: 15px 80px;
+}
+.div_button input:hover{
+	background-color: #FFA07A;
+}
+.modify {
+	padding: 6px 32px;
+	border: 1px solid;
+	border-color: #FFA07A;
+	background-color: #FF7F50;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+

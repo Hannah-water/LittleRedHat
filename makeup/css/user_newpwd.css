@@ -1,0 +1,105 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family:"微软雅黑","microsoft yahei";
+	background-color: #F7CAC9;
+	font-size: 16px;
+}
+div {
+	display: block;
+}
+.area {
+	overflow: hidden;
+	width: 800px;
+	margin: 140px auto;
+	background-color: #fff;
+}
+.area-head {
+	font-size: 25px;
+	background-color: #FFA07A;
+}
+.area-head span, .rightHead span {
+	padding: 20px;
+	line-height: 50px;
+}
+.area-left {
+	float: left;
+	width: 180px;
+	margin: 20px;
+	background-color: #f8f8f8;
+}
+.allMenu {
+	padding: 20px 5px;
+}
+
+.allMenu li {
+	line-height: 22px;
+	padding: 10px;
+}
+.area-right {
+	width: 540px;
+	float: right;
+	margin: 20px;
+}
+.rightHead {
+	font-size: 18px;
+	font-weight: bold;
+}
+.rightCon {
+	margin-top: 20px;
+}
+
+.rightConR {
+	padding: 10px;
+}
+.rightConR table {
+	padding-top: 30px;
+	clear: both;
+	margin: 0 auto;
+}
+
+.info {
+	line-height: 55px;
+	text-align: right;
+}
+.info_con {
+	font-family:"微软雅黑","microsoft yahei";
+	line-height: 25px;
+}
+ul, li {
+	list-style: none;
+}
+input:focus{
+	outline:none;
+	border:#FF7F50 1px solid;
+	box-shadow: 0 0 2px #FF7F50;
+}
+.div_button{
+	text-align: center;
+	padding: 20px;
+}
+.div_button input:hover{
+	background-color: #FFA07A;
+}
+.modify {
+	padding: 6px 32px;
+	border: 1px solid;
+	border-color: #FFA07A;
+	background-color: #FF7F50;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.error-wrap {
+	display: none;
+	margin-top: 15px;
+	line-height: 22px;
+	border: 1px solid #FF0000;
+	padding: 2px 10px;
+	color: #FF0000;
+	text-align: center;
+}

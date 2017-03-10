@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family:"微软雅黑","microsoft yahei";
+	background-color: #F7CAC9;
+	font-size: 16px;
+}
+div {
+	display: block;
+}
+.area {
+	width: 900px;
+	overflow: hidden;
+	margin: 90px auto;
+	background-color: #fff;
+}
+
+.inner {
+	padding: 80px;
+}
+
+.p_title {
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.p_auth {
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	color: #808080;
+}
+.p_con {
+	font-size: 30px;
+	margin: 80px auto;
+	width: 700px;
+}
+.collect {
+	cursor: pointer;
+}

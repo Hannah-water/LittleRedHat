@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family:"微软雅黑","microsoft yahei";
+	background-color: #F7CAC9;
+	font-size: 16px;
+}
+div {
+	display: block;
+}
+.area {
+	overflow: hidden;
+	width: 800px;
+	margin: 140px auto;
+	background-color: #fff;
+}
+.area-head {
+	font-size: 25px;
+	background-color: #FFA07A;
+}
+.area-head span, .rightHead span {
+	padding: 20px;
+	line-height: 50px;
+}
+.area-left {
+	float: left;
+	width: 180px;
+	margin: 20px;
+	background-color: #f8f8f8;
+}
+.allMenu {
+	padding: 20px 5px;
+}
+
+.allMenu li {
+	line-height: 22px;
+	padding: 10px;
+}
+.area-right {
+	width: 540px;
+	float: right;
+	margin: 20px;
+}
+.rightHead {
+	font-size: 18px;
+	font-weight: bold;
+}
+.rightCon {
+	margin-top: 20px;
+}
+
+.rightConR {
+	padding-bottom: 30px;
+}
+.rightConD {
+	clear: both;
+	margin: 30px auto;
+}
+
+.postCon {
+	margin-bottom: 30px;
+	border: 2px solid #FFA07A;
+	padding: 10px;
+}
+.posttit {
+	line-height: 40px;
+}
+.postc {
+	height: 80px;
+	line-height: 40px;
+}
+
+.info {
+	line-height: 55px;
+	text-align: right;
+}
+.info_con {
+	font-family:"微软雅黑","microsoft yahei";
+	line-height: 25px;
+}
+ul, li {
+	list-style: none;
+}

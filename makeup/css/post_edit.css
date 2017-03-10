@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family:"微软雅黑","microsoft yahei";
+	background-color: #F7CAC9;
+	font-size: 16px;
+}
+div {
+	display: block;
+}
+.area {
+	width: 900px;
+	margin: 70px auto;
+	background-color: #fff;
+}
+
+.inner {
+	padding: 80px;
+}
+
+.p_title {
+	
+}
+.p_title input {
+	line-height: 20px;
+	width: 500px;
+	font-size: 20px;
+}
+.p_title select {
+	line-height: 20px;
+	font-size: 20px;
+}
+.p_mname input {
+	width: 300px;
+}
+.p_makeupmsg {
+	float: left;
+	margin-right: 20px
+}
+.p_makeupmsg input {
+
+	width: 80px;
+}
+.p_con {
+	clear: both;
+}
+input:focus, select:focus {
+	outline:none;
+	border:#FF7F50 1px solid;
+	box-shadow: 0 0 2px #FF7F50;
+}
+
+span {
+	font-size: 20px;
+	line-height: 50px;
+
+}
+.t_input, .goUp, p {
+	font-family: "微软雅黑","microsoft yahei";
+}
+.div_button{
+	margin-top: 15px;
+}
+.div_button input:hover {
+	background-color: #FFA07A;
+}
+
+.goUp {
+	width: 100%;
+	padding: 6px 12px;
+	border: 1px solid;
+	border-color: #FFA07A;
+	background-color: #FF7F50;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}

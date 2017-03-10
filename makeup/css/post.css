@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family:"微软雅黑","microsoft yahei";
+	background-color: #F7CAC9;
+	font-size: 16px;
+}
+div {
+	display: block;
+}
+.area {
+	width: 900px;
+	overflow: hidden;
+	margin: 100px auto;
+}
+
+.area_search {
+	margin: 20px 0;
+	padding: 10px;
+	background-color: #fff;
+	line-height: 40px;
+	width: 834px;
+}
+
+.searchbox {
+	float: left;
+	width: 200px;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	padding: 6px 12px;
+	vertical-align: middle;
+	color: #808080;
+	font-size: 15px;
+}
+.searchbtn {
+	width: 60px;
+	margin-left: 8px;
+	padding: 6px 8px;
+	border: 1px solid;
+	border-color: #FFA07A;
+	background-color: #FF7F50;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.area_post {
+	float: left;
+	margin: 40px 36px 0 0;
+	width: 260px;
+	height: 420px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+}
+
+.a_pic {
+	float: left;
+	display: block;
+	width: 260px;
+	height: 260px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.a_pic img {
+	width: 260px;
+}
+
+.a_con {
+	margin-top: 270px;
+	text-align: center;
+	padding: 10px;
+}
+.a_title {
+
+}
+.a_auth {
+
+	color: #808080;
+	margin: 0 auto;
+}
+.a_text {
+	margin: 0 auto;
+}
+input:focus, select:focus{
+	outline:none;
+	border:#FF7F50 1px solid;
+	box-shadow: 0 0 2px #FF7F50;
+}
+
+.p_makeupmsg {
+	float: left;
+	margin-right: 20px
+}
+.selectbtn {
+
+	width: 80px;
+}
